@@ -1,0 +1,298 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .subscribe-area {
+      padding: 25px 0;
+    }
+    .area-title {
+      margin-bottom: 20px;
+    }
+    .area-title h4 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    .subcribe-form {
+      text-align: center;
+    }
+    .subcribe-form input {
+      width: 100%;
+      margin-bottom: 10px;
+      margin-left: 0;
+    }
+    .subcribe-form button {
+      margin: 0;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    /* subscribe-area */
+    .subscribe-area {
+      padding: 25px 0;
+    }
+    .area-title {
+      margin-bottom: 20px;
+    }
+    .area-title h4 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    .subcribe-form {
+      text-align: center;
+    }
+    .subcribe-form input {
+      width: 100%;
+      margin-bottom: 10px;
+      margin-left: 0;
+    }
+    .subcribe-form button {
+      margin: 0;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+      .btn {
+        padding: 8px 20px;
+    }
+    p {
+      font-size: 12px;
+    }
+    /* slider */
+    .single-slider {
+      height: 100%;
+      padding: 20px 0;
+  }
+    .slider-content h3 {
+      font-size: 35px;
+      color: #595959;
+      margin-top: 40px;
+    }
+    /* features-area */
+    .features-area {
+      margin-top: 20px;
+  }
+  .theme-bg {
+    padding: 0px;
+  }
+  .single-features {
+    padding: 10px 0;
+    border-bottom: 1px solid #409eff;
+  }
+    .features-area .single-features:nth-last-child() {
+      border-bottom: 0;
+    }
+    /* features-about */
+    .features-about {
+      margin-top: 0;
+  }
+  .text-about h3 {
+    font-size: 22px;
+  }
+  .text-about h3::before {
+    width: 75px;
+  }
+  .about-img img {
+    width: 100%;
+  }
+  /* subscribe-area */
+  .subscribe-area {
+    padding: 25px 0;
+  }
+  .area-title {
+    margin-bottom: 20px;
+  }
+  .area-title h4 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .subcribe-form {
+    text-align: center;
+  }
+  .subcribe-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  .subcribe-form button {
+    margin: 0;
+  }
+      /* service area */
+      .service-area {
+        padding: 20px 10px;
+    }
+    .single-service {
+      margin-bottom: 10px;
+    }
+    /* price-area */
+    .price-area {
+      padding: 20px 0;
+  }
+  .pricing-item {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+    .price-details p {
+    line-height: 25px;
+    margin-bottom: 10px;
+    }
+    /* counter-area */
+    .counter-area {
+      padding: 15px 0 0;
+  }
+    .counter-sm {
+      width: 50%;
+  }
+  .counter-wrapper {
+    margin-bottom: 20px;
+  }
+  .counter-wrapper i {
+    margin-bottom:0;
+  }
+  .counter-wrapper i img {
+    width: 20%;
+  }
+  .counter-wrapper span {
+    font-size: 18px;
+  }
+  .counter-wrapper p {
+    line-height: 1;
+  }
+  /* team area */
+  .team-sm {
+    width: 50%;
+  }
+  .team-img::before {
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+
+
+    }
+    .team-info h3 {
+      font-size: 15px;
+  }
+  .team-info span {
+    font-size: 12px;
+  }
+  .team-icon a {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  /* blog-area */
+  .blog-area {
+    margin: 40px 0;
+  }
+  .blog-dettails {
+    padding-bottom: 10px;
+  }
+  .blog-dettails h3 {
+    margin: 10px 0;
+  }
+  .blog-dettails p {
+    margin-bottom: 10px;
+  }
+  /* developer-area */
+  .developer {
+  padding: 20px;
+  }
+  .developer-wrapper {
+    background: #fff;
+    padding: 10px;
+    opacity: 0.9;
+  }
+  .developer-content h3 {
+    font-size: 15px;
+    line-height: 1;
+  }
+  .developer-content span {
+    font-size: 12px;
+    margin: 0;
+  }
+  .developer-content p {
+    line-height: 20px;
+  }
+  .single-brand a img {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
